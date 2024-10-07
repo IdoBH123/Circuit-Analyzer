@@ -1,0 +1,12 @@
+Rres1 	inp1 net1  	100
+RresA	net1 net2	200
+RresB 	net1 net3	300
+RresB2	net3 net2	300
+RresB3 	net2 net4	250
+RresC	net1 net4	600
+Rr2	net4 net5	130
+Pp1	inp1		5.5
+Gg1	net5
+Probe	Pr_A resA
+Probe 	PR_V net1 net4
+

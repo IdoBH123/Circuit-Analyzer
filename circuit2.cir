@@ -1,0 +1,18 @@
+Rr1 	net2 	net4  	200
+Rr3	net_in	net2	100
+Rr2	net5	net4	250
+Rr8	net4	net10	300
+Rr6	net7	net6	100
+Rr4	net6	net4	100
+Rr5	net5	net7	150
+Rr9	net5 	net10 	50
+Rr11	net10	net12	1000
+Rr10	net12	net_gnd	300
+Rr13	net10	net5	100
+Rr12	net12	net10	2000
+Pp	net_in		100
+Gg	net_gnd
+Probe	Probe1 r5
+Probe  	Probe2	r8
+Probe 	ProbeV net4	net5
+Probe	ProbeV2	net5	net10
